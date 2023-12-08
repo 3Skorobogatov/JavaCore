@@ -2,6 +2,6 @@ package courseAT;
 
 public class check {
     public static void main(String[] args) {
-        System.out.println(lesson6.sum3(2,1,1));
+        System.out.println(lesson7.sum2(22,-5));
     }
 }
