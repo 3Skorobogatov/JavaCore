@@ -2,6 +2,6 @@ package courseAT;
 
 public class check {
     public static void main(String[] args) {
-        System.out.println(lesson3.max(9, 5));
+        System.out.println(lesson5.max3(2,2,23));
     }
 }
