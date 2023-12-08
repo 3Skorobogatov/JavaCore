@@ -6,11 +6,11 @@ public class lesson4 {
            int b = Integer.valueOf(y);
            int b1 = b;
            int a1 = a;
-           String s = a1+">"+b1;
-           String t = a1+"<"+b1;
+           String more = a1+">"+b1;
+           String less = a1+"<"+b1;
            String eq = a1+"="+b1;
-           if (a>b) return s;
-           if (a<b) return t;
+           if (a>b) return more;
+           if (a<b) return less;
            return eq;
        }
        }
