@@ -1,4 +1,4 @@
-package courseAT;
+package courseAT.conditions_IF;
 
 public class lesson9 {
     public static boolean magic6(int x, int y){

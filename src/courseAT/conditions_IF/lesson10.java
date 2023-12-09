@@ -1,4 +1,4 @@
-package courseAT;
+package courseAT.conditions_IF;
 
 public class lesson10 {
     public static String age(int x){

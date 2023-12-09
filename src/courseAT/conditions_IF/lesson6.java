@@ -1,4 +1,4 @@
-package courseAT;
+package courseAT.conditions_IF;
 
 public class lesson6 {
     public static boolean sum3(int x, int y, int z){

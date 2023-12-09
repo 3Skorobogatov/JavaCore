@@ -1,4 +1,4 @@
-package courseAT;
+package courseAT.conditions_IF;
 
 public class lesson2 {
     public static int safeDiv(int x, int y) {

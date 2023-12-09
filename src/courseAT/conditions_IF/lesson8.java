@@ -1,4 +1,4 @@
-package courseAT;
+package courseAT.conditions_IF;
 
 public class lesson8 {
     public static boolean is35(int x){

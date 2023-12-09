@@ -1,4 +1,4 @@
-package courseAT;
+package courseAT.conditions_IF;
 
 import java.util.Arrays;
 

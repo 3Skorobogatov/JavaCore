@@ -1,4 +1,4 @@
-package courseAT;
+package courseAT.conditions_IF;
 
 public class lesson4 {
        public static String makeDecision(int x, int y){
