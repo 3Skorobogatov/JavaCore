@@ -3,16 +3,16 @@ public class lesson12 {
     public static String printDays(String x){
         String[] days = {"понедельник", "вторник", "среда", "четверг", "пятница", "суббота", "воскресенье"};
         String incorrect = "это не день недели";
-        switch (x){
-            case "понедельник" : return (days[0]+", "+ days[1] +", " + days[2] + ", " + days[3] + ", " + days[4] + ", "+days[5] + ", " + days[6]);
-            case "вторник" : return (days[1]+", "+days[2]+", "+days[3]+", "+days[4]+", "+days[5]+", "+days[6]);
-            case "среда" : return (days[2]+", "+days[3]+", "+days[4]+", "+days[5]+", "+days[6]);
-            case "четверг" : return (days[3]+", "+days[4]+", "+days[5]+", "+days[6]);
-            case "пятница" : return (days[4]+", "+days[5]+", "+days[6]);
-            case "суббота" : return (days[5]+", "+days[6]);
-            case "воскресенье" : return (days[6]);
-        }
-    return incorrect;
+        return switch (x) {
+            case "понедельник" -> (days[0] + ", " + days[1] + ", " + days[2] + ", " + days[3] + ", " + days[4] + ", " + days[5] + ", " + days[6]);
+            case "вторник" -> (days[1] + ", " + days[2] + ", " + days[3] + ", " + days[4] + ", " + days[5] + ", " + days[6]);
+            case "среда" -> (days[2] + ", " + days[3] + ", " + days[4] + ", " + days[5] + ", " + days[6]);
+            case "четверг" -> (days[3] + ", " + days[4] + ", " + days[5] + ", " + days[6]);
+            case "пятница" -> (days[4] + ", " + days[5] + ", " + days[6]);
+            case "суббота" -> (days[5] + ", " + days[6]);
+            case "воскресенье" -> (days[6]);
+            default -> incorrect;
+        };
     }
 
 }
