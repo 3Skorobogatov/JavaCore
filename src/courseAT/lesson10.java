@@ -2,12 +2,10 @@ package courseAT;
 
 public class lesson10 {
     public static String age(int x){
-
         int a = Integer.valueOf(x);
-        int a1 = a;
-        String god = a1+" год";
-        String goda = a1+" года";
-        String let = a1+" лет";
+        String god = a+" год";
+        String goda = a+" года";
+        String let = a+" лет";
         int b = a%10;
         int c = a%100;
         if (b == 1 && c != 11) return god;

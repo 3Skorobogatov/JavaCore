@@ -4,11 +4,9 @@ public class lesson4 {
        public static String makeDecision(int x, int y){
            int a = Integer.valueOf(x);
            int b = Integer.valueOf(y);
-           int b1 = b;
-           int a1 = a;
-           String more = a1+">"+b1;
-           String less = a1+"<"+b1;
-           String eq = a1+"="+b1;
+           String more = a+">"+b;
+           String less = a+"<"+b;
+           String eq = a+"="+b;
            if (a>b) return more;
            if (a<b) return less;
            return eq;
