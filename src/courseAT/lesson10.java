@@ -3,6 +3,16 @@ package courseAT;
 public class lesson10 {
     public static String age(int x){
 
+        int a = Integer.valueOf(x);
+        int a1 = a;
+        String god = a1+" год";
+        String goda = a1+" года";
+        String let = a1+" лет";
+        int b = a%10;
+        int c = a%100;
+        if (b == 1 && c != 11) return god;
+        if (b == 2 | b == 3 | b == 4 && c != 12 && c != 13 && c != 14 ) return goda;
+        return let;
     }
 }
 
