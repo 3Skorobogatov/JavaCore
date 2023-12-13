@@ -6,7 +6,7 @@ public class lesson2 {
     public static String reverseListNums(int x) {
         String a = "0";
         for (int i=x; i>0; i--){
-            System.out.println(i);
+            System.out.print(i + " ");
         }
     return a;
     }

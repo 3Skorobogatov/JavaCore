@@ -6,7 +6,9 @@ import static java.util.stream.IntStream.*;
 
 public class lesson1 {
     public static String listNums(int x) {
-        range(0, x).forEach(System.out::println);
+        for (int i = 0; i<x; i++ ) {
+            System.out.print(i + " ");
+        }
         return String.valueOf(x);
     }
 }

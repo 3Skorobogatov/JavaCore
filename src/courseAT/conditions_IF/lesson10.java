@@ -2,12 +2,11 @@ package courseAT.conditions_IF;
 
 public class lesson10 {
     public static String age(int x){
-        int a = Integer.valueOf(x);
-        String god = a+" год";
-        String goda = a+" года";
-        String let = a+" лет";
-        int b = a%10;
-        int c = a%100;
+        String god = x+" год";
+        String goda = x+" года";
+        String let = x+" лет";
+        int b = x%10;
+        int c = x%100;
         if (b == 1 && c != 11) return god;
         if (b == 2 | b == 3 | b == 4 && c != 12 && c != 13 && c != 14 ) return goda;
         return let;

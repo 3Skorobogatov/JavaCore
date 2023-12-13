@@ -2,10 +2,11 @@ package courseAT.cycles;
 
 public class lesson3 {
     public static String chet(int x){
-        for (int i=0; i<x; i+=2){
-            System.out.println(i);
+        String res = "";
+        for (int i=0; i <= x ; i+=2){
+            res += i+" ";
         }
-        return String.valueOf(x);
+        return res;
     }
 }
 
