@@ -5,9 +5,7 @@ public class lesson9 {
         int sum=x+y;
         int sub1=x-y;
         int sub2=y-x;
-        if (x==6 | y==6) return true;
-        if (sub1==6 | sub2==6) return true;
-        if (sum==6) return true;
+        if (x==6 | y==6 | sub1==6 | sub2==6 | sum==6) return true;
         return false;
     }
 }

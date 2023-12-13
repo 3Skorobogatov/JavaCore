@@ -2,8 +2,7 @@ package courseAT.conditions_IF;
 
 public class lesson6 {
     public static boolean sum3(int x, int y, int z){
-        if (x+z==y | x+y==z) return true;
-        if (y+z==x | y+x==z) return true;
+        if (x+z==y | x+y==z | y+z==x) return true;
         return false;
     }
 }
