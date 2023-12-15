@@ -2,7 +2,11 @@ package courseAT.cycles;
 
 public class lesson4 {
     public static int pow(int x, int y){
-        for ( int i = 0;  ;)
+        int res = 1;
+        for (int i = 1; i <= y; i ++){
+            res = res * x;
+        }
+        return res;
     }
 }
 

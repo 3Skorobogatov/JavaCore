@@ -2,8 +2,12 @@ package courseAT.cycles;
 
 public class lesson5 {
     public static int numLen(long x){
-        String a = Long.toString(x);
-        return a.length();
+        int count = 0;
+        do {
+            count++;
+            x/=10;
+        } while (x != 0);
+        return count;
 
     }
 }
