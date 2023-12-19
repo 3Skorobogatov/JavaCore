@@ -3,7 +3,7 @@ package courseAT.cycles;
 public class lesson6 {
     public static boolean equalNum(int x){
         for (; x>0; x/=10){
-            if ( x/10 == x/10%10) x+= ;
+            if ( x/10 == x/10%10) x+= 0;
         }
         return false;
     }
